@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Piedra, Papel o Tijera?</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,27 +14,29 @@
     <header>
         <h1>¿Piedra, Papel o Tijera?</h1>
     </header>
-    <div class="score">
-        <div class="user-label badge">USER</div>
-        <div class="pc-label badge">PC</div>
-        <span id="user-score">0</span> :
-        <span id="pc-score">0</span>
-    </div>
-    <div class="result">
-        <p>¡Elige una opción!</p>
-    </div>
-    <div class="options">
-        <div class="choise" id="r">
-            <img src="./img/rock.png" alt="drawing of a rock">
+    <div class="container">
+        <div class="score">
+            <div class="user-label badge">USER</div>
+            <div class="pc-label badge">PC</div>
+            <span id="user-score">0</span> :
+            <span id="pc-score">0</span>
         </div>
-        <div class="choise" id="p">
-            <img src="./img/paper.png" alt="drawing of a paper">
+        <div class="result">
+            <p>¡Elige una opción!</p>
         </div>
-        <div class="choise" id="s">
-            <img src="./img/scissors.png" alt="drawing of a scissor">
+        <div class="options">
+            <div class="choise" id="r">
+                <img src="./img/rock.png" alt="drawing of a rock">
+            </div>
+            <div class="choise" id="p">
+                <img src="./img/paper.png" alt="drawing of a paper">
+            </div>
+            <div class="choise" id="s">
+                <img src="./img/scissors.png" alt="drawing of a scissor">
+            </div>
         </div>
     </div>
-        <p class="action">¡A jugar!</p>
+    <p class="action">¡A jugar!</p>
     
     <script src="./juego.js" ></script>    
 </body>

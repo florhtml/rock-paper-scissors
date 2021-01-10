@@ -53,7 +53,6 @@ h1 {
     letter-spacing: 3px;
 }
 
-
 .user-label {
     position: absolute;
     top: 50px;
@@ -77,7 +76,7 @@ h1 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 30px;
+    margin: 50px;
     position: relative;
 } 
 
@@ -96,80 +95,77 @@ img {
 
 .action {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
     font-family: 'Major Mono Display', monospace;
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 30px;
 }
 
-
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 760px) {
     header {
-        font-size: 12px;
+        padding: 10px;
+    } 
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .container {
+        padding: 55px;
+    }
+
+    .result {
+        font-size: 15px;
+        margin: 10px;
     }
     
     .score {
-        border: 1px solid #fff;
         width: 200px;
-        height: 80px;
-        padding: 20px;
-        position: relative;
-        font-size: 25px;
+        height: 100px;
+        text-align: center;
+        padding: 25px;
+        font-size: 30px;
         border-radius: 5px;
+        margin: 30px auto;
     }
 
     .badge {
-        width: 70px;
-        height: 30px;
-        background: #FF4F33;
+        width: 80px;
+        height: 40px;
         font-size: 10px;
-        border-radius: 5px;
-        padding: 8px;
-        letter-spacing: 3px;
+        padding: 12px;
     }
 
     .user-label {
-        position: absolute;
-        top: 20px;
-        left: -35px;
+        top: 30px;
     }
     
     .pc-label {
-        position: absolute;
-        top: 20px;
-        left: 162px;
+        top: 30px;
+        left: 155px;
     }
 
     .options {
         flex-direction: column;
     } 
 
-    .result {
-        font-size: 20px;
-        margin-bottom: 10px;
-        letter-spacing: 2px;
-    }
-
     .choise {
-        background-color: #FF4F33;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border-radius: 50%;
-        margin: 40px 200px 10px 200px;
-        position: relative;
+        margin: 10px;
     } 
     
     img {
-        width: 50px;
-        position: absolute;
-        top: 15px;
-        left: 25px;
+        width: 45px;
+        top: 10px;
+        left: 18px;
     }
 
     .action {
-        font-size: 20px;
-        text-transform: uppercase;
-        letter-spacing: 30px;
+        font-size: 15px;
+        letter-spacing: 10px;
     }
+    
 }
